@@ -46,6 +46,7 @@ ScriptedImporter:
     streamingMipmaps: 1
     streamingMipmapsPriority: 0
     vTOnly: 0
+    ignoreMasterTextureLimit: 0
     nPOTScale: 1
     sRGBTexture: 1
     spriteMode: 2
@@ -67,6 +68,7 @@ ScriptedImporter:
     flipbookRows: 0
     flipbookColumns: 0
     ignorePngGamma: 0
+    cookieMode: 0
     filterMode: 1
     aniso: 1
     mipBias: 0
@@ -100,7 +102,6 @@ ScriptedImporter:
       width: 0
       height: 0
     spriteID: 
-    internalID: 0
     spriteBone: []
     spriteOutline: []
     vertices: []
@@ -112,7 +113,7 @@ ScriptedImporter:
     uvTransform: {x: 0, y: 0}
   mosaicSpriteImportData: []
   rigSpriteImportData:
-  - name: Project Indie Character_0
+  - name: Mouth
     originalName: 
     pivot: {x: 0.5, y: 0.5}
     alignment: 0
@@ -123,8 +124,7 @@ ScriptedImporter:
       y: 4
       width: 493
       height: 539
-    spriteID: 998b0955f7dc09610800000000000000
-    internalID: 0
+    spriteID: 56a3dc1c3a1c382449a6c5f9c72c019e
     spriteBone: []
     spriteOutline: []
     vertices: []
@@ -133,52 +133,8 @@ ScriptedImporter:
     edges: []
     tessellationDetail: 0
     parentGroupIndex: -1
-    uvTransform: {x: 4, y: 4}
-  - name: Project Indie Character_1
-    originalName: 
-    pivot: {x: 0.5, y: 0.5}
-    alignment: 0
-    border: {x: 0, y: 0, z: 0, w: 0}
-    rect:
-      serializedVersion: 2
-      x: 505
-      y: 315
-      width: 88
-      height: 182
-    spriteID: 3bef4f18ac1636ed0800000000000000
-    internalID: 0
-    spriteBone: []
-    spriteOutline: []
-    vertices: []
-    spritePhysicsOutline: []
-    indices: 
-    edges: []
-    tessellationDetail: 0
-    parentGroupIndex: -1
-    uvTransform: {x: 505, y: 315}
-  - name: Project Indie Character_2
-    originalName: 
-    pivot: {x: 0.5, y: 0.5}
-    alignment: 0
-    border: {x: 0, y: 0, z: 0, w: 0}
-    rect:
-      serializedVersion: 2
-      x: 601
-      y: 315
-      width: 87
-      height: 182
-    spriteID: 3c30448e291b205e0800000000000000
-    internalID: 0
-    spriteBone: []
-    spriteOutline: []
-    vertices: []
-    spritePhysicsOutline: []
-    indices: 
-    edges: []
-    tessellationDetail: 0
-    parentGroupIndex: -1
-    uvTransform: {x: 601, y: 315}
-  - name: Project Indie Character_3
+    uvTransform: {x: 4, y: -386}
+  - name: Layer 11
     originalName: 
     pivot: {x: 0.5, y: 0.5}
     alignment: 0
@@ -189,8 +145,7 @@ ScriptedImporter:
       y: 137
       width: 106
       height: 271
-    spriteID: 9bdd5fd1c62e046d0800000000000000
-    internalID: 0
+    spriteID: e778535df0f807e4eb3363e0102cdddd
     spriteBone: []
     spriteOutline: []
     vertices: []
@@ -199,52 +154,8 @@ ScriptedImporter:
     edges: []
     tessellationDetail: 0
     parentGroupIndex: -1
-    uvTransform: {x: 736, y: 137}
-  - name: Project Indie Character_4
-    originalName: 
-    pivot: {x: 0.5, y: 0.5}
-    alignment: 0
-    border: {x: 0, y: 0, z: 0, w: 0}
-    rect:
-      serializedVersion: 2
-      x: 850
-      y: 137
-      width: 106
-      height: 271
-    spriteID: e303bb469dadccf70800000000000000
-    internalID: 0
-    spriteBone: []
-    spriteOutline: []
-    vertices: []
-    spritePhysicsOutline: []
-    indices: 
-    edges: []
-    tessellationDetail: 0
-    parentGroupIndex: -1
-    uvTransform: {x: 850, y: 137}
-  - name: Project Indie Character_5
-    originalName: 
-    pivot: {x: 0.5, y: 0.5}
-    alignment: 0
-    border: {x: 0, y: 0, z: 0, w: 0}
-    rect:
-      serializedVersion: 2
-      x: 505
-      y: 4
-      width: 223
-      height: 303
-    spriteID: 7c689b47ca944b8e0800000000000000
-    internalID: 0
-    spriteBone: []
-    spriteOutline: []
-    vertices: []
-    spritePhysicsOutline: []
-    indices: 
-    edges: []
-    tessellationDetail: 0
-    parentGroupIndex: -1
-    uvTransform: {x: 505, y: 4}
-  - name: Project Indie Character_6
+    uvTransform: {x: 628, y: -9}
+  - name: Skirt
     originalName: 
     pivot: {x: 0.5, y: 0.5}
     alignment: 0
@@ -255,8 +166,7 @@ ScriptedImporter:
       y: 4
       width: 251
       height: 125
-    spriteID: edae2403361217190800000000000000
-    internalID: 0
+    spriteID: b23f3f8005e0903408a0a34fd03c60ea
     spriteBone: []
     spriteOutline: []
     vertices: []
@@ -265,7 +175,91 @@ ScriptedImporter:
     edges: []
     tessellationDetail: 0
     parentGroupIndex: -1
-    uvTransform: {x: 736, y: 4}
+    uvTransform: {x: 596, y: -115}
+  - name: stomach
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 505
+      y: 4
+      width: 223
+      height: 303
+    spriteID: 537d6fd5c85fdf94f8ed01c270e0927b
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    parentGroupIndex: -1
+    uvTransform: {x: 357, y: -152}
+  - name: <Group>
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 850
+      y: 137
+      width: 106
+      height: 271
+    spriteID: 6c6348b7a35e6344fb972b34fd6b346c
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    parentGroupIndex: -1
+    uvTransform: {x: 527, y: -14}
+  - name: <Group>
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 601
+      y: 315
+      width: 87
+      height: 182
+    spriteID: cfdd2084e98d4ff43a39a29d5ae13a4d
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    parentGroupIndex: -1
+    uvTransform: {x: 321, y: 314}
+  - name: Layer 9
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 505
+      y: 315
+      width: 88
+      height: 182
+    spriteID: 9be89b930c230524ab1dc6da0bcbd39b
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    parentGroupIndex: -1
+    uvTransform: {x: 326, y: 314}
   characterData:
     bones:
     - name: bone_1
@@ -631,16 +625,13 @@ ScriptedImporter:
   documentPivot: {x: 0, y: 0}
   documentAlignment: 0
   importHiddenLayers: 0
-  importedTextureWidth: 1024
-  importedTextureHeight: 1024
-  documentSize: {x: 496, y: 929}
+  layerMappingOption: 2
+  generatePhysicsShape: 0
   paperDollMode: 0
   keepDupilcateSpriteName: 1
   skeletonAssetReferenceID: 00000000000000000000000000000000
   spriteCategoryList:
     categories: []
-  textureActualWidth: 1024
-  textureActualHeight: 1024
   spritePackingTag: 
   resliceFromLayer: 0
   mosaicPSDLayers: []
@@ -649,9 +640,12 @@ ScriptedImporter:
     spriteName: 
     isGroup: 1
     parentIndex: -1
-    spriteID: 00000000000000000000000000000000
+    spriteID: 38cdc55913da3ae44911ad49bfed967d
     layerID: 52
     mosaicPosition: {x: 0, y: 0}
+    flatten: 0
+    isImported: 0
+    isVisible: 1
   - name: Mouth
     spriteName: Mouth
     isGroup: 0
@@ -659,27 +653,39 @@ ScriptedImporter:
     spriteID: 56a3dc1c3a1c382449a6c5f9c72c019e
     layerID: 51
     mosaicPosition: {x: 4, y: 4}
+    flatten: 0
+    isImported: 1
+    isVisible: 1
   - name: left Hand
     spriteName: 
     isGroup: 1
     parentIndex: -1
-    spriteID: 00000000000000000000000000000000
+    spriteID: 5979ffb399691bb4c8699930047a3a6f
     layerID: 25
     mosaicPosition: {x: 0, y: 0}
+    flatten: 0
+    isImported: 0
+    isVisible: 1
   - name: Layer 11
-    spriteName: 
+    spriteName: Layer 11
     isGroup: 0
     parentIndex: 2
-    spriteID: 00000000000000000000000000000000
+    spriteID: e778535df0f807e4eb3363e0102cdddd
     layerID: 23
-    mosaicPosition: {x: 0, y: 0}
+    mosaicPosition: {x: 736, y: 137}
+    flatten: 0
+    isImported: 1
+    isVisible: 1
   - name: Body
     spriteName: 
     isGroup: 1
     parentIndex: -1
-    spriteID: 00000000000000000000000000000000
+    spriteID: 9cf13d42a0bfa0c43ab0c3bfad5e68d5
     layerID: 27
     mosaicPosition: {x: 0, y: 0}
+    flatten: 0
+    isImported: 0
+    isVisible: 1
   - name: Skirt
     spriteName: Skirt
     isGroup: 0
@@ -687,6 +693,9 @@ ScriptedImporter:
     spriteID: b23f3f8005e0903408a0a34fd03c60ea
     layerID: 20
     mosaicPosition: {x: 736, y: 4}
+    flatten: 0
+    isImported: 1
+    isVisible: 1
   - name: stomach
     spriteName: stomach
     isGroup: 0
@@ -694,27 +703,39 @@ ScriptedImporter:
     spriteID: 537d6fd5c85fdf94f8ed01c270e0927b
     layerID: 9
     mosaicPosition: {x: 505, y: 4}
+    flatten: 0
+    isImported: 1
+    isVisible: 1
   - name: right hand
     spriteName: 
     isGroup: 1
     parentIndex: -1
-    spriteID: 00000000000000000000000000000000
+    spriteID: 9336ff25e391b2d49a359ae35d4d6179
     layerID: 7
     mosaicPosition: {x: 0, y: 0}
+    flatten: 0
+    isImported: 0
+    isVisible: 1
   - name: <Group>
-    spriteName: 
+    spriteName: <Group>
     isGroup: 0
     parentIndex: 7
-    spriteID: 00000000000000000000000000000000
+    spriteID: 6c6348b7a35e6344fb972b34fd6b346c
     layerID: 5
-    mosaicPosition: {x: 0, y: 0}
+    mosaicPosition: {x: 850, y: 137}
+    flatten: 0
+    isImported: 1
+    isVisible: 1
   - name: right leg
     spriteName: 
     isGroup: 1
     parentIndex: -1
-    spriteID: 00000000000000000000000000000000
+    spriteID: b22f6687a20323348a4f74df944fc37c
     layerID: 18
     mosaicPosition: {x: 0, y: 0}
+    flatten: 0
+    isImported: 0
+    isVisible: 1
   - name: <Group>
     spriteName: <Group>
     isGroup: 0
@@ -722,21 +743,31 @@ ScriptedImporter:
     spriteID: cfdd2084e98d4ff43a39a29d5ae13a4d
     layerID: 17
     mosaicPosition: {x: 601, y: 315}
+    flatten: 0
+    isImported: 1
+    isVisible: 1
   - name: leftleg
     spriteName: 
     isGroup: 1
     parentIndex: -1
-    spriteID: 00000000000000000000000000000000
+    spriteID: 6de7cdb8ec4d3604d8c071ad077af817
     layerID: 14
     mosaicPosition: {x: 0, y: 0}
+    flatten: 0
+    isImported: 0
+    isVisible: 1
   - name: Layer 9
-    spriteName: 
+    spriteName: Layer 9
     isGroup: 0
     parentIndex: 11
-    spriteID: 00000000000000000000000000000000
+    spriteID: 9be89b930c230524ab1dc6da0bcbd39b
     layerID: 12
-    mosaicPosition: {x: 0, y: 0}
+    mosaicPosition: {x: 505, y: 315}
+    flatten: 0
+    isImported: 1
+    isVisible: 1
   sharedRigPSDLayers: []
+  pSDLayerImportSetting: []
   generateGOHierarchy: 0
   textureAssetName: Project Indie Character Texture
   prefabAssetName: Project Indie Character Prefab
