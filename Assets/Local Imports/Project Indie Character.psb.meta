@@ -42,11 +42,13 @@ ScriptedImporter:
     convertToNormalMap: 0
     heightScale: 0.25
     normalMapFilter: 0
+    flipGreenChannel: 0
+    swizzle: 50462976
     isReadable: 0
     streamingMipmaps: 1
     streamingMipmapsPriority: 0
     vTOnly: 0
-    ignoreMasterTextureLimit: 0
+    ignoreMipmapLimit: 0
     nPOTScale: 1
     sRGBTexture: 1
     spriteMode: 2
@@ -109,8 +111,8 @@ ScriptedImporter:
     indices: 
     edges: []
     tessellationDetail: 0
-    parentGroupIndex: -1
     uvTransform: {x: 0, y: 0}
+    spritePosition: {x: 0, y: 0}
   mosaicSpriteImportData: []
   rigSpriteImportData:
   - name: Mouth
@@ -132,8 +134,8 @@ ScriptedImporter:
     indices: 
     edges: []
     tessellationDetail: 0
-    parentGroupIndex: -1
-    uvTransform: {x: 4, y: -386}
+    uvTransform: {x: 4, y: 4}
+    spritePosition: {x: 0, y: 390}
   - name: Layer 11
     originalName: 
     pivot: {x: 0.5, y: 0.5}
@@ -153,8 +155,8 @@ ScriptedImporter:
     indices: 
     edges: []
     tessellationDetail: 0
-    parentGroupIndex: -1
-    uvTransform: {x: 628, y: -9}
+    uvTransform: {x: 736, y: 137}
+    spritePosition: {x: 108, y: 146}
   - name: Skirt
     originalName: 
     pivot: {x: 0.5, y: 0.5}
@@ -174,8 +176,8 @@ ScriptedImporter:
     indices: 
     edges: []
     tessellationDetail: 0
-    parentGroupIndex: -1
-    uvTransform: {x: 596, y: -115}
+    uvTransform: {x: 736, y: 4}
+    spritePosition: {x: 140, y: 119}
   - name: stomach
     originalName: 
     pivot: {x: 0.5, y: 0.5}
@@ -195,8 +197,8 @@ ScriptedImporter:
     indices: 
     edges: []
     tessellationDetail: 0
-    parentGroupIndex: -1
-    uvTransform: {x: 357, y: -152}
+    uvTransform: {x: 505, y: 4}
+    spritePosition: {x: 148, y: 156}
   - name: <Group>
     originalName: 
     pivot: {x: 0.5, y: 0.5}
@@ -216,8 +218,8 @@ ScriptedImporter:
     indices: 
     edges: []
     tessellationDetail: 0
-    parentGroupIndex: -1
-    uvTransform: {x: 527, y: -14}
+    uvTransform: {x: 850, y: 137}
+    spritePosition: {x: 323, y: 151}
   - name: <Group>
     originalName: 
     pivot: {x: 0.5, y: 0.5}
@@ -237,8 +239,8 @@ ScriptedImporter:
     indices: 
     edges: []
     tessellationDetail: 0
-    parentGroupIndex: -1
-    uvTransform: {x: 321, y: 314}
+    uvTransform: {x: 601, y: 315}
+    spritePosition: {x: 280, y: 1}
   - name: Layer 9
     originalName: 
     pivot: {x: 0.5, y: 0.5}
@@ -258,8 +260,8 @@ ScriptedImporter:
     indices: 
     edges: []
     tessellationDetail: 0
-    parentGroupIndex: -1
-    uvTransform: {x: 326, y: 314}
+    uvTransform: {x: 505, y: 315}
+    spritePosition: {x: 179, y: 1}
   characterData:
     bones:
     - name: bone_1
@@ -589,6 +591,7 @@ ScriptedImporter:
       order: 0
     dimension: {x: 0, y: 0}
     characterGroups: []
+    pivot: {x: 0, y: 0}
     boneReadOnly: 0
   sharedRigSpriteImportData: []
   sharedRigCharacterData:
@@ -596,10 +599,12 @@ ScriptedImporter:
     parts: []
     dimension: {x: 0, y: 0}
     characterGroups: []
+    pivot: {x: 0, y: 0}
     boneReadOnly: 0
   platformSettings:
   - name: DefaultTexturePlatform
     overridden: 0
+    ignorePlatformSupport: 0
     maxTextureSize: 2048
     resizeAlgorithm: 0
     textureFormat: -1
@@ -611,6 +616,7 @@ ScriptedImporter:
     androidETC2FallbackOverride: 0
   - name: Standalone
     overridden: 0
+    ignorePlatformSupport: 0
     maxTextureSize: 2048
     resizeAlgorithm: 0
     textureFormat: -1
@@ -630,6 +636,8 @@ ScriptedImporter:
   paperDollMode: 0
   keepDupilcateSpriteName: 1
   skeletonAssetReferenceID: 00000000000000000000000000000000
+  padding: 4
+  spriteSizeExpand: 0
   spriteCategoryList:
     categories: []
   spritePackingTag: 
@@ -768,6 +776,9 @@ ScriptedImporter:
     isVisible: 1
   sharedRigPSDLayers: []
   pSDLayerImportSetting: []
+  importFileNodeState: 1
+  platformSettingsDirtyTick: 0
+  spriteSizeExpandChanged: 0
   generateGOHierarchy: 0
   textureAssetName: Project Indie Character Texture
   prefabAssetName: Project Indie Character Prefab

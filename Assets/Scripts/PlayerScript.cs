@@ -22,6 +22,8 @@ public class PlayerScript : MonoBehaviour
     //Player Effect
     public GameObject playerEffect;
     public Transform playerEffectPos;
+    public GameObject particlePrefab; // Reference to your Particle System Prefab
+
 
    //Attacking
     public float attackRange;
@@ -94,6 +96,7 @@ public class PlayerScript : MonoBehaviour
            
             
             isAttacking = true;
+         GameObject effect = Instantiate(particlePrefab, attackPos.position, Quaternion.identity);
 
             Collider2D colInfo = Physics2D.OverlapCircle(attackPos.position,attackRange,attackMask);
            // Collider2D volcanoeInfo = Physics2D.OverlapCircle(attackPos.position,attackRange,volcanoeMask);
